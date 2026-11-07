@@ -1,0 +1,668 @@
+{
+  "project": "Anthelmed/UGUI-vs-UIToolkit",
+  "commit": "01e0cfef4d8243e5561047ada161482582585043",
+  "unity": "6000.3.21f1",
+  "frameSha256": {
+    "0001.png": "fd77796f69e39427ed23e1f7a1045439823e6bc7548ba49ec12a33b7ba948825",
+    "0002.png": "ece1e0b7cac34ac38791adada694de6a3cf47e88c9c138b812c30530f0eb41ea",
+    "0003.png": "dc2c42f327d392b920637c2c6523a4b9881f6b99d82cdd5c22c013cd8967e0de",
+    "0004.png": "666bc130e49cc85590fdfdd8eb82cb418a784cc370f0d3347b47a8c97ce06c09",
+    "0005.png": "f9a782b152f6fdb0179189a53cb17065a7c26682be328e4ed61767c3809e3b77",
+    "0006.png": "529d0615a539e7d24f24c3168c0aa7cada4f92bb867e37e693a0bdb01b5ce53c",
+    "0007.png": "fd104a5ab2d27965b4198f450cf0e245c508c0b80f2d974732f33fdc8e13e7f4",
+    "0008.png": "c3bc5f4061e587feab5856855842ab5d8cbae157493100440fe74f0fcdb1afb2",
+    "0009.png": "0a2f2345a3af0bd50586f391911e67ad9db045da2bd9f7dab82ad90eea0cab3d",
+    "0010.png": "cd8ba087e127547dc7ec565ccbaddb6626832ca5fdce4bbe43b94c2c6a72ff3f",
+    "0011.png": "96b2acc8b4f9fb49edc82ff460bc1781b9fb23a4eec4e73bdc885e633644e443",
+    "0012.png": "c1dd16f5bbae97c45bc5132830d211cffa10f0866bb24be11b8f000a514c188a",
+    "0013.png": "3aedfb2f1e697e2cae074b25de603231774b8ee2c3af82732ab445fd212f3120",
+    "0014.png": "49418998770a29a41ef094afa0ad2af27b8a599cad1689e0593213eb2acc3b61",
+    "0015.png": "b0623ed0f0bd9ca238982d183da86ec2bd9c920fabca316392082a1565d37d32",
+    "0016.png": "6e07c406582795196958dd3c9baba5f48e8670060362b129440dd6e9f2373abd",
+    "0017.png": "ae6de172fa80a81427de7619afb3b3f2fa36227f2f28838ddc1508b7c4853eda",
+    "0018.png": "7358f2d0de29846de890368b3ec0bce3dc3679a4c63053ca21bf9932d5811995",
+    "0019.png": "37a978e6049adc25c90a8597df3bcc38b1b5f0dfb5fcb54ef5e9a969430df00d",
+    "0020.png": "8e40315bfa033590281a5756c2d0105765e783415dd8e17771999004ae6b6716",
+    "0021.png": "7d4c94b40373c10fef0d739adab34a3defa5334fe253a75a3ee2e0ae2ebb8e04",
+    "0022.png": "d5a49842fb6f313d99ceee34fe4e1ef8b4e0f3016ccbef797dec10c5abce3b1c",
+    "0023.png": "f8033b0ea790c717e59a0cca5f773696d0356623a8f6c2a93d9e2fa482c9becb",
+    "0024.png": "0b3f4baa1f33c8f4f333375edab5f74f3af4a9f7052b986ef2f2e41c1bab2190",
+    "0025.png": "3fb3b42ad029a7992f5dff44c58690a98202347f8ea57e52baf98a68aff0ed47",
+    "0026.png": "af5b5cb58dfd05337772f555be664f14b2dcce8fda824e9790b5ec3482e0a7e3",
+    "0027.png": "f10e09b73210955b826eda512ecc010ecb3b29e5d4b784202af355e723dab049",
+    "0028.png": "bf1b43090316c7fc5f3f61fbf28205ce3db6bb4821ae316c0cc5ced8f05cb1db",
+    "0029.png": "5b6e208f3af5880f22d21a4802a9d87db2a8ad3b129c871bcae77124902f8e3c",
+    "0030.png": "f65e527a9275bffffff2c4645cf5da8146c98c6f5017c006671eb6c89d33479f",
+    "0031.png": "fd6e6a80ed21f35e44c0d1374be2337845f4d565f13206e8b504f7d0ea4db8cf",
+    "0032.png": "1347e879c4257bba261d63d0eedd0be4703b6e20b029da835e8f82be940eb741",
+    "0033.png": "bb64e617e310953ebc13269633054be89efede7081a8f1274c5599be65bb26f6",
+    "0034.png": "1f0e0b6557c9081ce116e0278ecaf0a27326d93cdd108c0e3300a146253ed31c",
+    "0035.png": "a7d66ed69dcfec9d6c6d2f0238c0baa9f690edf3b524cbb1cf4601c6d0e32a0a",
+    "0036.png": "71905711e3cd6082cbb0f1179b7c02d094888f2945382edaf0ee5b7abceeb58a",
+    "0037.png": "e947f119bd32a8e276253264a3b812967479886acc73fadcdc14506c201d4e84",
+    "0038.png": "54906c02967f8aaae9816546beccc7328b51036c38df77cc4130f8c1f7955232",
+    "0039.png": "3ae9269f3e578f304e90d9e63330e8b86ab588d789cf7f7cdc29cd609440bd46",
+    "0040.png": "f37b4d594825f2bdea53926df88881e3b9b2d4c019994ae9671e7240d4717f18",
+    "0041.png": "86c4ed0f7863e1c9f7e0469f71f1c5873c36d6e164e52f2015e9abb2a9c9daa4",
+    "0042.png": "c22b649391c944373e610047f73b13b97f1705a5c95465711a0903a878c4b950",
+    "0043.png": "6dd926ec26ec355c7ecd8fc1071ef14d32da44c89b0ad4282d61f05e255ec6d3",
+    "0044.png": "bb49ab0cd4cd54eb0a1c7a11e298da56687d37014543804414f9ee4b84adff54",
+    "0045.png": "19ba86b2aaa4af01072838ce44829ab535a847e1eea7f7d450d442a049aa350d",
+    "0046.png": "949388904fad7a1914e0593561f5537f454639dcb81207e0e09d9f7e692ce74f",
+    "0047.png": "eb2f709212075ccfcbb4025fb170a86fdbd55afac5d4f0edebe109e842841b82",
+    "0048.png": "5c66c71e0a8734e3bc6e1741c847d94c5deed9ee7b3fc8903bf4f1a22517a064",
+    "0049.png": "020d1a60073c08ed57e00e7323e91f00e9e9f430c8a242301ef60f7788639be6",
+    "0050.png": "29f7f0abc6a8aadb861537f1546b5fadeb55a047b0471491132007e4a5ffbac7",
+    "0051.png": "d87a9c868d4e21a66d9e79c95e2c483bcabf0b11813ce1a65ff5ed2ca3324890",
+    "0052.png": "3eaf51ead100a41f9332c7dda3fe91b8a2df9416400411469d249b8e8f2676f6",
+    "0053.png": "0772568e76d615984cdba81bb4ddfdca85817a6f3739617f114ced91c2f4bff1",
+    "0054.png": "aed3cc07551ad7232e89fd589b00df48f0b929b0e06204a4419084b78c4b9b83",
+    "0055.png": "48eb510b9c3639cc80645a27b210115bba34283921025d613592dfc6aa3cbb08",
+    "0056.png": "48eb510b9c3639cc80645a27b210115bba34283921025d613592dfc6aa3cbb08",
+    "0057.png": "48eb510b9c3639cc80645a27b210115bba34283921025d613592dfc6aa3cbb08",
+    "0058.png": "48eb510b9c3639cc80645a27b210115bba34283921025d613592dfc6aa3cbb08",
+    "0059.png": "48eb510b9c3639cc80645a27b210115bba34283921025d613592dfc6aa3cbb08",
+    "0060.png": "48eb510b9c3639cc80645a27b210115bba34283921025d613592dfc6aa3cbb08",
+    "0061.png": "48eb510b9c3639cc80645a27b210115bba34283921025d613592dfc6aa3cbb08"
+  },
+  "frozenProtocol": {
+    "run": "reversal-39b99c110b1c",
+    "motion": {
+      "Main Menu Canvas/Menu Panel": [
+        26,
+        -12,
+        0.055,
+        0.65,
+        0,
+        1.65
+      ],
+      "Main Menu Canvas/Navigation Information Panel": [
+        -30,
+        -16,
+        -0.045,
+        0.8,
+        0.08,
+        1.67
+      ],
+      "Main Menu Canvas/Logo": [
+        22,
+        18,
+        -0.075,
+        0.5,
+        0.14,
+        1.66
+      ]
+    },
+    "criteria": {
+      "alphaMAE": 0.035,
+      "positionMAE": 5,
+      "maxPosition": 18,
+      "scaleMAE": 0.025,
+      "visibleAboveAlpha": 0.1
+    },
+    "codeSha256": {
+      "scripts/textured.py": "274559f67096822a3fbc54d828466942961dd77f93daf296e2c1ada49a93c086",
+      "scripts/flat_opacity.py": "58ccb3e642cd31ca28ade20a8485b2729c87e82f5a9e8d76c786e8bc37c9d7f5",
+      "scripts/motion.py": "f0479979e08f23f6d24f60bbd4043b6f5519797117a72e249a991aa13a848728",
+      "scripts/unity.py": "f75f7a44fb2c34c915c08b944f8b7ac0152eb9db3acdc6c985da88441856a31f",
+      "assets/auto/AutoBridge.cs": "c28f48cf36f029705d78837defcf8a166b6d4408be453963e4bc58b6800af9b0",
+      "benchmarks/score.py": "9e60e1a6f1836da77431141e247ea508a142a1c1fa12e04e547b5bb6b2fe32d5",
+      "benchmarks/reversal.py": "5afbd49e5db2e5d85a7360df18ebf633933053a4bd2a883220f820055a5b8f41"
+    },
+    "installedBridgeSha256": "c28f48cf36f029705d78837defcf8a166b6d4408be453963e4bc58b6800af9b0",
+    "baselineSha256": "b8b40da712530dfb95c89e8a9b885a15753a5a08f0217d555746a5f26b0991b8"
+  },
+  "frozenScore": {
+    "case": "c_190de100f8bd",
+    "truth": "reversal-39b99c110b1c-truth",
+    "replay": "reversal-39b99c110b1c-fit",
+    "tracks": [
+      {
+        "name": "t_2596eb32d55a",
+        "frames": 61,
+        "alphaMAE": 0.003504983714369477,
+        "alphaP95": 0.010512709617614746,
+        "alphaMax": 0.012199997901916504,
+        "worstTimeSeconds": 1.6666666666666667,
+        "framesAbove035": 0,
+        "fadeFrames": 50,
+        "fadeAlphaMAE": 0.004276080131530762,
+        "visibleFrames": 61,
+        "positionMAE": 0.18578817337188555,
+        "positionMax": 0.6527199071310656,
+        "scaleMAE": 0.0023008839028780576,
+        "patchSampling": {
+          "patches": 83,
+          "measuredFrames": 54,
+          "geometryFallbackFrames": 0
+        },
+        "accuracyPassed": true
+      },
+      {
+        "name": "t_3229015a31ee",
+        "frames": 61,
+        "alphaMAE": 0.009581350645080942,
+        "alphaP95": 0.06602096557617188,
+        "alphaMax": 0.09057480096817017,
+        "worstTimeSeconds": 0.6666666666666666,
+        "framesAbove035": 6,
+        "fadeFrames": 49,
+        "fadeAlphaMAE": 0.01107814938438182,
+        "visibleFrames": 61,
+        "positionMAE": 1.650842757069725,
+        "positionMax": 11.265471360798893,
+        "scaleMAE": 0.01573771629177156,
+        "patchSampling": {
+          "patches": 6,
+          "measuredFrames": 53,
+          "geometryFallbackFrames": 0
+        },
+        "accuracyPassed": true
+      },
+      {
+        "name": "t_dafd6b0a8f7b",
+        "frames": 61,
+        "alphaMAE": 0.0029776218484659665,
+        "alphaP95": 0.008008837699890137,
+        "alphaMax": 0.011538088321685791,
+        "worstTimeSeconds": 1.5333333333333334,
+        "framesAbove035": 0,
+        "fadeFrames": 49,
+        "fadeAlphaMAE": 0.003706835362375999,
+        "visibleFrames": 61,
+        "positionMAE": 0.2741335784366006,
+        "positionMax": 1.023305921725282,
+        "scaleMAE": 0.002935929376570905,
+        "patchSampling": {
+          "patches": 26,
+          "measuredFrames": 50,
+          "geometryFallbackFrames": 0
+        },
+        "accuracyPassed": true
+      }
+    ],
+    "structuralChecksPassed": true,
+    "raycastProbes": 7,
+    "passed": true
+  },
+  "releaseCodeSha256": {
+    "scripts/textured.py": "274559f67096822a3fbc54d828466942961dd77f93daf296e2c1ada49a93c086",
+    "scripts/flat_opacity.py": "4f777bb32dfc1ccf172da69e58ce78f2ec9de029fe005756a6394a8fbd70252c",
+    "scripts/motion.py": "f0479979e08f23f6d24f60bbd4043b6f5519797117a72e249a991aa13a848728",
+    "scripts/unity.py": "f75f7a44fb2c34c915c08b944f8b7ac0152eb9db3acdc6c985da88441856a31f",
+    "assets/auto/AutoBridge.cs": "c28f48cf36f029705d78837defcf8a166b6d4408be453963e4bc58b6800af9b0",
+    "benchmarks/score.py": "33442edf8af69d62d9691401bbd2f548f1e47fc6ca46a0db6eb4bfc8e3aeb84a",
+    "benchmarks/reversal.py": "959b1c95fb9c5e083140ceaa63fc096bd9ae8ac199d75bf9fb22bdee7bd68d2b"
+  },
+  "releaseScore": {
+    "case": "c_190de100f8bd",
+    "truth": "reversal-39b99c110b1c-truth",
+    "replay": "corroborated-peak-final",
+    "tracks": [
+      {
+        "name": "t_2596eb32d55a",
+        "frames": 61,
+        "alphaMAE": 0.003623951653965184,
+        "alphaP95": 0.010512709617614746,
+        "alphaMax": 0.012199997901916504,
+        "worstTimeSeconds": 1.6666666666666667,
+        "framesAbove035": 0,
+        "fadeFrames": 50,
+        "fadeAlphaMAE": 0.004421221017837524,
+        "visibleFrames": 61,
+        "positionMAE": 0.18578817337188555,
+        "positionMax": 0.6527199071310656,
+        "scaleMAE": 0.0023008839028780576,
+        "patchSampling": {
+          "patches": 83,
+          "measuredFrames": 54,
+          "geometryFallbackFrames": 0,
+          "corroboratedPeaks": [
+            {
+              "frame": 6,
+              "median": 0.9892510103793953,
+              "level": 1.0
+            },
+            {
+              "frame": 52,
+              "median": 0.989333706997392,
+              "level": 0.9999995231862602
+            }
+          ]
+        },
+        "accuracyPassed": true
+      },
+      {
+        "name": "t_3229015a31ee",
+        "frames": 61,
+        "alphaMAE": 0.0019590138900475425,
+        "alphaP95": 0.005897551774978638,
+        "alphaMax": 0.00718843936920166,
+        "worstTimeSeconds": 0.23333333333333334,
+        "framesAbove035": 0,
+        "fadeFrames": 49,
+        "fadeAlphaMAE": 0.0024176246049452802,
+        "visibleFrames": 61,
+        "positionMAE": 1.650842757069725,
+        "positionMax": 11.265471360798893,
+        "scaleMAE": 0.01573771629177156,
+        "patchSampling": {
+          "patches": 6,
+          "measuredFrames": 53,
+          "geometryFallbackFrames": 0,
+          "corroboratedPeaks": [
+            {
+              "frame": 9,
+              "median": 0.8505374491214752,
+              "level": 0.8756532669067383
+            },
+            {
+              "frame": 20,
+              "median": 0.27168093621730804,
+              "level": 0.3619357943534851
+            },
+            {
+              "frame": 27,
+              "median": 0.18821969628334045,
+              "level": 0.20208755135536194
+            },
+            {
+              "frame": 28,
+              "median": 0.15931811928749084,
+              "level": 0.20198743045330048
+            },
+            {
+              "frame": 29,
+              "median": 0.18286588042974472,
+              "level": 0.21081440150737762
+            },
+            {
+              "frame": 32,
+              "median": 0.2508937120437622,
+              "level": 0.2632961869239807
+            },
+            {
+              "frame": 35,
+              "median": 0.2937498688697815,
+              "level": 0.36894842982292175
+            },
+            {
+              "frame": 36,
+              "median": 0.3199658840894699,
+              "level": 0.4094367027282715
+            },
+            {
+              "frame": 37,
+              "median": 0.4424821734428406,
+              "level": 0.45961809158325195
+            },
+            {
+              "frame": 46,
+              "median": 0.8082728981971741,
+              "level": 0.8693458437919617
+            },
+            {
+              "frame": 52,
+              "median": 0.9495095312595367,
+              "level": 1.0
+            }
+          ]
+        },
+        "accuracyPassed": true
+      },
+      {
+        "name": "t_dafd6b0a8f7b",
+        "frames": 61,
+        "alphaMAE": 0.0029776218484659665,
+        "alphaP95": 0.008008837699890137,
+        "alphaMax": 0.011538088321685791,
+        "worstTimeSeconds": 1.5333333333333334,
+        "framesAbove035": 0,
+        "fadeFrames": 49,
+        "fadeAlphaMAE": 0.003706835362375999,
+        "visibleFrames": 61,
+        "positionMAE": 0.2741335784366006,
+        "positionMax": 1.023305921725282,
+        "scaleMAE": 0.002935929376570905,
+        "patchSampling": {
+          "patches": 26,
+          "measuredFrames": 50,
+          "geometryFallbackFrames": 0,
+          "corroboratedPeaks": []
+        },
+        "accuracyPassed": true
+      }
+    ],
+    "requirePeak035": true,
+    "structuralChecksPassed": true,
+    "raycastProbes": 7,
+    "passed": true
+  },
+  "releaseIntegrity": {
+    "checked": 271,
+    "changedOrMissing": [],
+    "unexpectedAdded": [],
+    "pass_": true
+  },
+  "developmentReplayCheck": [
+    {
+      "revision": "element-r1",
+      "frames": 61,
+      "tracks": 3,
+      "frozenReconstructionMaxDiff": 0.0,
+      "updatedMaxDiff": 0.0
+    },
+    {
+      "revision": "element-r2",
+      "frames": 61,
+      "tracks": 3,
+      "frozenReconstructionMaxDiff": 0.0,
+      "updatedMaxDiff": 0.0
+    },
+    {
+      "revision": "element-survivors",
+      "frames": 61,
+      "tracks": 4,
+      "frozenReconstructionMaxDiff": 0.0,
+      "updatedMaxDiff": 0.0
+    }
+  ],
+  "prePeakCorrection": {
+    "releaseScore": {
+      "case": "c_190de100f8bd",
+      "truth": "reversal-39b99c110b1c-truth",
+      "replay": "research-contrast-v1",
+      "tracks": [
+        {
+          "name": "t_2596eb32d55a",
+          "frames": 61,
+          "alphaMAE": 0.003504983714369477,
+          "alphaP95": 0.010512709617614746,
+          "alphaMax": 0.012199997901916504,
+          "worstTimeSeconds": 1.6666666666666667,
+          "framesAbove035": 0,
+          "fadeFrames": 50,
+          "fadeAlphaMAE": 0.004276080131530762,
+          "visibleFrames": 61,
+          "positionMAE": 0.18578817337188555,
+          "positionMax": 0.6527199071310656,
+          "scaleMAE": 0.0023008839028780576,
+          "patchSampling": {
+            "patches": 83,
+            "measuredFrames": 54,
+            "geometryFallbackFrames": 0
+          },
+          "accuracyPassed": true
+        },
+        {
+          "name": "t_3229015a31ee",
+          "frames": 61,
+          "alphaMAE": 0.009581350645080942,
+          "alphaP95": 0.06602096557617188,
+          "alphaMax": 0.09057480096817017,
+          "worstTimeSeconds": 0.6666666666666666,
+          "framesAbove035": 6,
+          "fadeFrames": 49,
+          "fadeAlphaMAE": 0.01107814938438182,
+          "visibleFrames": 61,
+          "positionMAE": 1.650842757069725,
+          "positionMax": 11.265471360798893,
+          "scaleMAE": 0.01573771629177156,
+          "patchSampling": {
+            "patches": 6,
+            "measuredFrames": 53,
+            "geometryFallbackFrames": 0
+          },
+          "accuracyPassed": true
+        },
+        {
+          "name": "t_dafd6b0a8f7b",
+          "frames": 61,
+          "alphaMAE": 0.0029776218484659665,
+          "alphaP95": 0.008008837699890137,
+          "alphaMax": 0.011538088321685791,
+          "worstTimeSeconds": 1.5333333333333334,
+          "framesAbove035": 0,
+          "fadeFrames": 49,
+          "fadeAlphaMAE": 0.003706835362375999,
+          "visibleFrames": 61,
+          "positionMAE": 0.2741335784366006,
+          "positionMax": 1.023305921725282,
+          "scaleMAE": 0.002935929376570905,
+          "patchSampling": {
+            "patches": 26,
+            "measuredFrames": 50,
+            "geometryFallbackFrames": 0
+          },
+          "accuracyPassed": true
+        }
+      ],
+      "structuralChecksPassed": true,
+      "raycastProbes": 7,
+      "passed": true
+    },
+    "releaseCodeSha256": {
+      "scripts/textured.py": "274559f67096822a3fbc54d828466942961dd77f93daf296e2c1ada49a93c086",
+      "scripts/flat_opacity.py": "84f1605f721d93f9e90458e6af1e6a6a502a523a93d4904792516b839f761731",
+      "scripts/motion.py": "f0479979e08f23f6d24f60bbd4043b6f5519797117a72e249a991aa13a848728",
+      "scripts/unity.py": "f75f7a44fb2c34c915c08b944f8b7ac0152eb9db3acdc6c985da88441856a31f",
+      "assets/auto/AutoBridge.cs": "c28f48cf36f029705d78837defcf8a166b6d4408be453963e4bc58b6800af9b0",
+      "benchmarks/score.py": "9e60e1a6f1836da77431141e247ea508a142a1c1fa12e04e547b5bb6b2fe32d5",
+      "benchmarks/reversal.py": "5afbd49e5db2e5d85a7360df18ebf633933053a4bd2a883220f820055a5b8f41"
+    }
+  },
+  "releaseCriteria": {
+    "alphaMAE": 0.035,
+    "alphaMax": 0.035,
+    "positionMAE": 5,
+    "positionMax": 18,
+    "scaleMAE": 0.025,
+    "visibleAboveAlpha": 0.1
+  },
+  "sixPriorExceedances": [
+    {
+      "frameIndex": 20,
+      "time": 0.6666666865348816,
+      "reference": 0.3622557520866394,
+      "before": 0.27168095111846924,
+      "after": 0.3619357943534851,
+      "beforeError": 0.09057480096817017,
+      "afterError": 0.0003199577331542969,
+      "measurement": {
+        "frame": 20,
+        "median": 0.27168093621730804,
+        "level": 0.3619357943534851
+      }
+    },
+    {
+      "frameIndex": 28,
+      "time": 0.9333333373069763,
+      "reference": 0.20095118880271912,
+      "before": 0.15931811928749084,
+      "after": 0.20198743045330048,
+      "beforeError": 0.04163306951522827,
+      "afterError": 0.0010362416505813599,
+      "measurement": {
+        "frame": 28,
+        "median": 0.15931811928749084,
+        "level": 0.20198743045330048
+      }
+    },
+    {
+      "frameIndex": 35,
+      "time": 1.1666666269302368,
+      "reference": 0.36630862951278687,
+      "before": 0.2937498688697815,
+      "after": 0.36894842982292175,
+      "beforeError": 0.07255876064300537,
+      "afterError": 0.0026398003101348877,
+      "measurement": {
+        "frame": 35,
+        "median": 0.2937498688697815,
+        "level": 0.36894842982292175
+      }
+    },
+    {
+      "frameIndex": 36,
+      "time": 1.2000000476837158,
+      "reference": 0.40875086188316345,
+      "before": 0.3199658989906311,
+      "after": 0.4094367027282715,
+      "beforeError": 0.08878496289253235,
+      "afterError": 0.0006858408451080322,
+      "measurement": {
+        "frame": 36,
+        "median": 0.3199658840894699,
+        "level": 0.4094367027282715
+      }
+    },
+    {
+      "frameIndex": 46,
+      "time": 1.5333333015441895,
+      "reference": 0.874293863773346,
+      "before": 0.8082728981971741,
+      "after": 0.8693458437919617,
+      "beforeError": 0.06602096557617188,
+      "afterError": 0.004948019981384277,
+      "measurement": {
+        "frame": 46,
+        "median": 0.8082728981971741,
+        "level": 0.8693458437919617
+      }
+    },
+    {
+      "frameIndex": 52,
+      "time": 1.7333333492279053,
+      "reference": 0.9992138147354126,
+      "before": 0.9495095610618591,
+      "after": 1.0,
+      "beforeError": 0.04970425367355347,
+      "afterError": 0.0007861852645874023,
+      "measurement": {
+        "frame": 52,
+        "median": 0.9495095312595367,
+        "level": 1.0
+      }
+    }
+  ],
+  "peakCorrectionRegression": [
+    {
+      "revision": "research-contrast-v1",
+      "name": "Menu Panel",
+      "beforeMAE": 0.002977623314153953,
+      "mae": 0.002977623314153953,
+      "beforeMax": 0.011538088321685791,
+      "maximum": 0.011538088321685791,
+      "over035": 0
+    },
+    {
+      "revision": "research-contrast-v1",
+      "name": "Navigation Information Panel",
+      "beforeMAE": 0.00958135284361292,
+      "mae": 0.001959015477876194,
+      "beforeMax": 0.09057481586933136,
+      "maximum": 0.00718843936920166,
+      "over035": 0
+    },
+    {
+      "revision": "research-contrast-v1",
+      "name": "Logo",
+      "beforeMAE": 0.0035049822777994083,
+      "mae": 0.003623950391442837,
+      "beforeMax": 0.012200021377538506,
+      "maximum": 0.012200021377538506,
+      "over035": 0
+    },
+    {
+      "revision": "element-r1",
+      "name": "Menu Panel",
+      "beforeMAE": 0.0005180220134922716,
+      "mae": 0.0005180220134922716,
+      "beforeMax": 0.010415524244308472,
+      "maximum": 0.010415524244308472,
+      "over035": 0
+    },
+    {
+      "revision": "element-r1",
+      "name": "Navigation Information Panel",
+      "beforeMAE": 0.008510465207483024,
+      "mae": 0.007202185759614802,
+      "beforeMax": 0.11021457705190252,
+      "maximum": 0.11021457705190252,
+      "over035": 3
+    },
+    {
+      "revision": "element-r1",
+      "name": "Logo",
+      "beforeMAE": 0.0008560745624570397,
+      "mae": 0.0008560745624570397,
+      "beforeMax": 0.011395550847745572,
+      "maximum": 0.011395550847745572,
+      "over035": 0
+    },
+    {
+      "revision": "element-r2",
+      "name": "Menu Panel",
+      "beforeMAE": 0.0005580216768335123,
+      "mae": 0.0005580216768335123,
+      "beforeMax": 0.0100516676902771,
+      "maximum": 0.0100516676902771,
+      "over035": 0
+    },
+    {
+      "revision": "element-r2",
+      "name": "Navigation Information Panel",
+      "beforeMAE": 0.0008898128862263727,
+      "mae": 0.00044524236047854186,
+      "beforeMax": 0.029150456190109253,
+      "maximum": 0.004679650068283081,
+      "over035": 0
+    },
+    {
+      "revision": "element-r2",
+      "name": "Logo",
+      "beforeMAE": 0.0008859136676205347,
+      "mae": 0.0008859136676205347,
+      "beforeMax": 0.01169341793722789,
+      "maximum": 0.01169341793722789,
+      "over035": 0
+    },
+    {
+      "revision": "element-survivors",
+      "name": "ButtonNewGame",
+      "beforeMAE": 0.006658487433348793,
+      "mae": 0.006658487433348793,
+      "beforeMax": 0.05000439322451644,
+      "maximum": 0.05000439322451644,
+      "over035": 4
+    },
+    {
+      "revision": "element-survivors",
+      "name": "ButtonPowerUp",
+      "beforeMAE": 0.005045342513475029,
+      "mae": 0.005045342513475029,
+      "beforeMax": 0.04839562489557314,
+      "maximum": 0.04839562489557314,
+      "over035": 5
+    },
+    {
+      "revision": "element-survivors",
+      "name": "ButtonSetting",
+      "beforeMAE": 0.006968586680432371,
+      "mae": 0.006968586680432371,
+      "beforeMax": 0.04153171846066073,
+      "maximum": 0.04153171846066073,
+      "over035": 3
+    },
+    {
+      "revision": "element-survivors",
+      "name": "ButtonExit",
+      "beforeMAE": 0.004017801717258913,
+      "mae": 0.004017801717258913,
+      "beforeMax": 0.03461235701556997,
+      "maximum": 0.03461235701556997,
+      "over035": 0
+    }
+  ],
+  "releaseScope": "Same recording used to diagnose the six frames. Other recordings have separate regression results."
+}
